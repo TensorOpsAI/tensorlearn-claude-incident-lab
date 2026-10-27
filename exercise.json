@@ -1,0 +1,26 @@
+{
+  "key": "incident",
+  "title": "Turn an incident into a lasting improvement",
+  "minutes": 40,
+  "chapter": "Chapter 2 \u00b7 Close the loop",
+  "writeAllow": [
+    "detector/**",
+    "policy/response.json",
+    "intent.md",
+    "evals/**",
+    "assessment.json"
+  ],
+  "practice": [
+    "incident.practice"
+  ],
+  "needsAI": true,
+  "brief": "Claims latency drifts upward. The monitoring agent overreacts to noise and misses sustained problems. A quick fix restored service once but left no regression evaluation, so the issue returned.",
+  "acceptance": [
+    "Numeric boundaries, zero variance and insufficient data behave as specified.",
+    "The trusted controller chooses the band before Claude starts.",
+    "Actions stay within the admitted band and duplicate events have no repeated effects.",
+    "The next intent cites evidence and its eval detects the prior regression.",
+    "No profile can deploy directly."
+  ],
+  "recipeIndex": 12
+}

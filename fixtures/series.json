@@ -1,0 +1,54 @@
+[
+  {
+    "id": "noise",
+    "history": [
+      98,
+      100,
+      102,
+      99,
+      101
+    ],
+    "current": 100
+  },
+  {
+    "id": "sustained-rise",
+    "history": [
+      98,
+      100,
+      102,
+      99,
+      101
+    ],
+    "current": 110
+  },
+  {
+    "id": "insufficient",
+    "history": [
+      100,
+      101
+    ],
+    "current": 110
+  },
+  {
+    "id": "zero-variance",
+    "history": [
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "current": 101
+  },
+  {
+    "id": "unchanged",
+    "history": [
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "current": 100
+  }
+]

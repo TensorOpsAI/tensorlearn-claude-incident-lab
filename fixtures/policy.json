@@ -1,0 +1,8 @@
+{
+  "minSamples": 5,
+  "thresholds": [
+    1,
+    2,
+    3
+  ]
+}
